@@ -750,18 +750,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "my_cli_tool"
-version = "0.1.0"
-dependencies = [
- "clap",
- "html2md",
- "regex",
- "reqwest",
- "scraper",
- "url",
-]
-
-[[package]]
 name = "native-tls"
 version = "0.2.12"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1695,6 +1683,18 @@ checksum = "26fdeaafd9bd129f65e7c031593c24d62186301e0c72c8978fa1678be7d532c0"
 dependencies = [
  "js-sys",
  "wasm-bindgen",
+]
+
+[[package]]
+name = "web2md"
+version = "0.1.0"
+dependencies = [
+ "clap",
+ "html2md",
+ "regex",
+ "reqwest",
+ "scraper",
+ "url",
 ]
 
 [[package]]
